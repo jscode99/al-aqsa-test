@@ -79,7 +79,7 @@ export default function Home({ data }) {
 }
 
 export async function getServerSideProps({ locale }) {
-  let url = "https://f5d1-20-74-161-164.in.ngrok.io/project-titles";
+  let url = "https://5513-20-74-161-164.in.ngrok.io/project-titles";
   const httpAgent = new https.Agent({
     rejectUnauthorized: false,
   });
